@@ -1,0 +1,22 @@
+[
+  {
+    "S NO": 1,
+    "Name": "Durga",
+    "Email": "durga@gmail.com",
+    "Coordinator ID": "COAID01",
+    "Department": "AIDS",
+    "Mobile": 745196,
+    "Designation": "A.Coordinator",
+    "Bio Metric Code": "COBIO01"
+  },
+  {
+    "S NO": 1,
+    "Name": "Mohan",
+    "Email": "mohan@gmail.com",
+    "Coordinator ID": "COCSE01",
+    "Department": "CSE",
+    "Mobile": 745197,
+    "Designation": "A.Coordinator",
+    "Bio Metric Code": "COBIO02"
+  }
+]

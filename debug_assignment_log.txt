@@ -1,0 +1,152 @@
+Fetching all faculty assignments...
+
+ID: 7tfOD42fTbzuScXpjn9Z
+Branch: "AID" (Length: 3) [65,73,68]
+Year: "3" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "00PC0AD20" (Length: 9) [48,48,80,67,48,65,68,50,48]
+Faculty: mary (qqBg1FxsgEUiZngGUOlpdwJRzJY2)
+isActive: true
+
+ID: 9rwaFtUi3LUUIOWmo6yk
+Branch: "CSM" (Length: 3) [67,83,77]
+Year: "2" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22PC0AM20" (Length: 9) [50,50,80,67,48,65,77,50,48]
+Faculty: kiranmai (qq8Q8n05t6aAEsfQiGRh5hyxUku2)
+isActive: true
+
+ID: GG9u2dCmqfLikUJA35ov
+Branch: "CSM" (Length: 3) [67,83,77]
+Year: "2" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22MC0CH03" (Length: 9) [50,50,77,67,48,67,72,48,51]
+Faculty: rambabu (NZfVQih6S2eOVdSXvuI0Du7eC4S2)
+isActive: true
+
+ID: Gncizub7cTZI61NbQWyh
+Branch: "AID" (Length: 3) [65,73,68]
+Year: "3" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22PC0AD22" (Length: 9) [50,50,80,67,48,65,68,50,50]
+Faculty: mary (qqBg1FxsgEUiZngGUOlpdwJRzJY2)
+isActive: true
+
+ID: HWT6ofeklEYWFfMoxNip
+Branch: "AID" (Length: 3) [65,73,68]
+Year: "3" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22PC0AD21" (Length: 9) [50,50,80,67,48,65,68,50,49]
+Faculty: joseph (X1x8qBZdvpMjzDNHY5FL278rHhz2)
+isActive: true
+
+ID: V4pZJ9pvsGld5PWWNGeo
+Branch: "CSM" (Length: 3) [67,83,77]
+Year: "2" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22OE0CY1B" (Length: 9) [50,50,79,69,48,67,89,49,66]
+Faculty: pavan (uxxhu9vPQUcvIG6cC9YJb0C40br2)
+isActive: true
+
+ID: WSudVy0HetWoWCweIxwu
+Branch: "CSM" (Length: 3) [67,83,77]
+Year: "2" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22PC0AM24" (Length: 9) [50,50,80,67,48,65,77,50,52]
+Faculty: chari (v6145gJ15gaYEv0vRihUTrd7Hw93)
+isActive: true
+
+ID: WeN8eOKIwknTr78N2cVE
+Branch: "AID" (Length: 3) [65,73,68]
+Year: "3" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22PC0AD18" (Length: 9) [50,50,80,67,48,65,68,49,56]
+Faculty: krishna (YUvFBZjdVSQyZkBx61BQ52Irspa2)
+isActive: true
+
+ID: YNJj0TRz5Gu0ysA6PrfS
+Branch: "AID" (Length: 3) [65,73,68]
+Year: "3" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22PE0AD2D" (Length: 9) [50,50,80,69,48,65,68,50,68]
+Faculty: Vinod (mGfvBZuK0RTwxJtT1vtJA9Cjcaj2)
+isActive: true
+
+ID: Yq0ER13oAMZE43p06NF4
+Branch: "CSM" (Length: 3) [67,83,77]
+Year: "2" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22PC0AM22" (Length: 9) [50,50,80,67,48,65,77,50,50]
+Faculty: srinivas (ugDeFfToHATjYcKZzLRWpjJGdcy2)
+isActive: true
+
+ID: cEh3aLnEbaNoZH9Ba6Dv
+Branch: "AID" (Length: 3) [65,73,68]
+Year: "3" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22SD0AD04" (Length: 9) [50,50,83,68,48,65,68,48,52]
+Faculty: kiranmai (qq8Q8n05t6aAEsfQiGRh5hyxUku2)
+isActive: true
+
+ID: dWFTvQiqpAMtDMD2pOoK
+Branch: "AID" (Length: 3) [65,73,68]
+Year: "3" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22PC0AD19" (Length: 9) [50,50,80,67,48,65,68,49,57]
+Faculty: joseph (X1x8qBZdvpMjzDNHY5FL278rHhz2)
+isActive: true
+
+ID: faYhhpfQr8Kga0gBamH8
+Branch: "CSM" (Length: 3) [67,83,77]
+Year: "2" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22PE0AM2D" (Length: 9) [50,50,80,69,48,65,77,50,68]
+Faculty: chari (v6145gJ15gaYEv0vRihUTrd7Hw93)
+isActive: true
+
+ID: gSKl8fL9AYPrEsuetCy8
+Branch: "AID" (Length: 3) [65,73,68]
+Year: "3" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22OECY1B" (Length: 8) [50,50,79,69,67,89,49,66]
+Faculty: aadil (1MkLlktvBPOO5zHV7tBUlwJp5Cf1)
+isActive: true
+
+ID: lCWzm7b8qpxP0LKDxPQM
+Branch: "CSM" (Length: 3) [67,83,77]
+Year: "2" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22PC0AM23" (Length: 9) [50,50,80,67,48,65,77,50,51]
+Faculty: srinivas (ugDeFfToHATjYcKZzLRWpjJGdcy2)
+isActive: true
+
+ID: s9l4qdqw1KMFTXOT8r0U
+Branch: "AID" (Length: 3) [65,73,68]
+Year: "3" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22MC0CH03" (Length: 9) [50,50,77,67,48,67,72,48,51]
+Faculty: rambabu (NZfVQih6S2eOVdSXvuI0Du7eC4S2)
+isActive: true
+
+ID: twjpX1wBSl4sXqbCX6Ks
+Branch: "CSM" (Length: 3) [67,83,77]
+Year: "2" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22SD0AM01" (Length: 9) [50,50,83,68,48,65,77,48,49]
+Faculty: Vinod (mGfvBZuK0RTwxJtT1vtJA9Cjcaj2)
+isActive: true
+
+ID: yU3LtWodIZo2SmdRz6Lj
+Branch: "CSM" (Length: 3) [67,83,77]
+Year: "2" (number)
+Section: "A" (Length: 1) [65]
+SubjectCode: "22PC0AM21" (Length: 9) [50,50,80,67,48,65,77,50,49]
+Faculty: swapna (I4nzCmhCyPOP3FfBQZ1zx7lul7p2)
+isActive: true
+
+--- Checking Structure ---
+Branches: ["AID","CSM","IOT"]
+Sections: ["1","2","3"]
+Branch Option: "AID" (Length: 3) [65,73,68]
+Branch Option: "CSM" (Length: 3) [67,83,77]
+Branch Option: "IOT" (Length: 3) [73,79,84]

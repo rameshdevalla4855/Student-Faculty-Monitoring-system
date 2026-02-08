@@ -1,0 +1,129 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // --- Helper Functions ---
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // Fetch user role from 'users' collection (Cost: 1 Read)
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    function isRole(role) {
+      return isAuthenticated() && getUserData().role == role;
+    }
+
+    // Role Shortcuts
+    function isCoordinator() { return isRole('coordinator'); }
+    function isHOD() { return isRole('hod'); }
+    function isFaculty() { return isRole('faculty'); }
+    function isSecurity() { return isRole('security'); }
+    
+    // Ownership Check
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // --- 1. Academic Structure (Global Config) ---
+    // Read: All Authenticated Users
+    // Write: ONLY Coordinator
+    match /academic_structure/{docId} {
+        allow read: if isAuthenticated();
+        allow write: if isCoordinator();
+    }
+
+    // --- 2. Faculty Assignments ---
+    // Read: All Authenticated Users (Students need to see their classes)
+    // Write: ONLY Coordinator
+    match /faculty_assignments/{assId} {
+        allow read: if isAuthenticated();
+        allow write: if isCoordinator();
+    }
+
+    // --- 3. Users Collection (Base Profiles) ---
+    match /users/{userId} {
+      allow read: if isAuthenticated(); // Allow directory lookup
+      allow write: if isOwner(userId) || isHOD() || isCoordinator(); 
+    }
+
+    // --- 4. Students Collection ---
+    match /students/{studentId} {
+      // READ: Public-ish for authorized roles or self
+      allow read: if isOwner(studentId) || isHOD() || isCoordinator() || isSecurity() || isFaculty() || 
+                  (isAuthenticated() && request.auth.token.email == resource.data.email);
+      
+      // UPDATE: Allow "Claiming" account logic + HOD/Coord edits
+      allow update: if isHOD() || isCoordinator() || (
+         resource.data.uid == null &&
+         resource.data.email == request.auth.token.email &&
+         request.resource.data.uid == request.auth.uid
+      );
+      
+      // CREATE: HOD or Coordinator
+      allow create: if isHOD() || isCoordinator();
+    }
+
+    // --- 5. Faculty Collection ---
+    match /faculty/{facultyId} {
+      allow read: if isOwner(facultyId) || isHOD() || isCoordinator() || isSecurity() || 
+                  (isAuthenticated() && request.auth.token.email == resource.data.email);
+      
+      // UPDATE: Allow "Claiming" account + HOD/Coord edits
+      allow update: if isHOD() || isCoordinator() || (
+         resource.data.uid == null &&
+         resource.data.email == request.auth.token.email &&
+         request.resource.data.uid == request.auth.uid
+      );
+      
+      allow create: if isHOD() || isCoordinator();
+    }
+
+    // --- 6. Coordinators Collection ---
+    match /coordinators/{coordId} {
+      allow read: if isCoordinator() || isHOD(); 
+      allow write: if isCoordinator(); // Self-update or Admin
+    }
+
+    // --- 7. Logs (Attendance) ---
+    match /attendanceLogs/{logId} {
+        // Read: HOD/Coord/Security (Monitoring) or Owner (History)
+        allow read: if isHOD() || isCoordinator() || isSecurity() || (isAuthenticated() && resource.data.uid == request.auth.uid);
+        
+        // Create: Security Only (Scanners) + HOD (Manual Override)
+        allow create: if isSecurity() || isHOD() || isCoordinator();
+    }
+    
+    // --- 8. Visitor Logs ---
+    match /visitorLogs/{logId} {
+        allow read, write: if isSecurity() || isHOD() || isCoordinator();
+    }
+
+    // --- 9. Notifications ---
+    match /notifications/{notifId} {
+        allow read: if isAuthenticated();
+        // Allow Fac/HOD/Coord to send alerts
+        allow create: if isHOD() || isCoordinator() || isFaculty();
+        allow update, delete: if isHOD() || isCoordinator(); 
+    }
+
+    // --- 10. Timetables ---
+    match /timetables/{docId} {
+        allow read: if isAuthenticated();
+        // Only Coordinator can manage timetables
+        allow write: if isCoordinator();
+    }
+
+    // --- 11. HODs Collection ---
+    match /hods/{hodId} {
+        allow read: if isAuthenticated(); // Allow authenticated users to read HOD profiles (for notifications etc) or restrict to isHOD/Coordinator? 
+        // Better: allow read if isHOD() || isCoordinator() || isFaculty() || isSecurity();
+        // Actually, for profile fetch:
+        allow read: if isHOD() || isCoordinator();
+        allow write: if isCoordinator();
+    }
+
+  }
+}

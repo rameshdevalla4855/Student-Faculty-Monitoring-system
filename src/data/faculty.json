@@ -1,0 +1,223 @@
+[
+  {
+    "S NO": "1",
+    "Name": "Vinod",
+    "Faculty Id": "FACAID01",
+    "Email": "facaid01@gniindia.org",
+    "Designation": "Associate Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "123456",
+    "Bio Metric Code": "AIDBIO001"
+  },
+  {
+    "S NO": "2",
+    "Name": "joseph",
+    "Faculty Id": "FACAID02",
+    "Email": "facaid02@gniindia.org",
+    "Designation": "Associate Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "96521475",
+    "Bio Metric Code": "AIDBIO002"
+  },
+  {
+    "S NO": "3",
+    "Name": "mariya",
+    "Faculty Id": "FACAID03",
+    "Email": "facaid03@gniindia.org",
+    "Designation": "Associate Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "48652655",
+    "Bio Metric Code": "AIDBIO003"
+  },
+  {
+    "S NO": "4",
+    "Name": "swapna",
+    "Faculty Id": "FACAID04",
+    "Email": "facaid04@gniindia.org",
+    "Designation": "Associate Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "2854918",
+    "Bio Metric Code": "AIDBIO004"
+  },
+  {
+    "S NO": "5",
+    "Name": "madhu",
+    "Faculty Id": "FACAID05",
+    "Email": "facaid05@gniindia.org",
+    "Designation": "Associate Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "69874115",
+    "Bio Metric Code": "AIDBIO005"
+  },
+  {
+    "S NO": "6",
+    "Name": "mary",
+    "Faculty Id": "FACAID06",
+    "Email": "facaid06@gniindia.org",
+    "Designation": "Associate Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "254862",
+    "Bio Metric Code": "AIDBIO006"
+  },
+  {
+    "S NO": "7",
+    "Name": "aadil",
+    "Faculty Id": "FACAID07",
+    "Email": "facaid07@gniindia.org",
+    "Designation": "Associate Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "2557482",
+    "Bio Metric Code": "AIDBIO007"
+  },
+  {
+    "S NO": "8",
+    "Name": "rambabu",
+    "Faculty Id": "FACAID08",
+    "Email": "facaid08@gniindia.org",
+    "Designation": "Associate Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "254852",
+    "Bio Metric Code": "AIDBIO008"
+  },
+  {
+    "S NO": "9",
+    "Name": "kiranmai",
+    "Faculty Id": "FACAID09",
+    "Email": "facaid09@gniindia.org",
+    "Designation": "Associate Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "2549315",
+    "Bio Metric Code": "AIDBIO009"
+  },
+  {
+    "S NO": "10",
+    "Name": "krishna",
+    "Faculty Id": "FACAID10",
+    "Email": "facaid10@gniindia.org",
+    "Designation": "Associate Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "58542225581",
+    "Bio Metric Code": "AIDBIO010"
+  },
+
+  {
+    "S NO": "1",
+    "Name": "pavan",
+    "Faculty Id": "FACCSM01",
+    "Email": "faccsm01@gniindia.org",
+    "Designation": "professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "949000",
+    "Bio Metric Code": "CSMBIO01"
+  },
+  {
+    "S NO": "2",
+    "Name": "ratnababu",
+    "Faculty Id": "FACCSM02",
+    "Email": "faccsm02@gniindia.org",
+    "Designation": "A. Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "949001",
+    "Bio Metric Code": "CSMBIO02"
+  },
+  {
+    "S NO": "3",
+    "Name": "jilani",
+    "Faculty Id": "FACCSM03",
+    "Email": "faccsm03@gniindia.org",
+    "Designation": "professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "949002",
+    "Bio Metric Code": "CSMBIO03"
+  },
+  {
+    "S NO": "4",
+    "Name": "chari",
+    "Faculty Id": "FACCSM04",
+    "Email": "faccsm04@gniindia.org",
+    "Designation": "A.Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "949003",
+    "Bio Metric Code": "CSMBIO04"
+  },
+  {
+    "S NO": "5",
+    "Name": "srinivas",
+    "Faculty Id": "FACCSM05",
+    "Email": "faccsm05@gniindia.org",
+    "Designation": "A.Professor",
+    "Hod Name": "Dr.Madhu",
+    "Department": "AIDS",
+    "Mobile No": "949004",
+    "Bio Metric Code": "CSMBIO05"
+  },
+  {
+    "S NO": "1",
+    "Name": "Rohan",
+    "Faculty Id": "FACCSE01",
+    "Email": "faccse01@gniindia.org",
+    "Designation": "A. professor",
+    "Hod Name": "Dr.Gita",
+    "Department": "CSE",
+    "Mobile No": "817374",
+    "Bio Metric Code": "CSEBIO01"
+  },
+  {
+    "S NO": "2",
+    "Name": "kripa",
+    "Faculty Id": "FACCSE02",
+    "Email": "faccse02@gniindia.org",
+    "Designation": "A. professor",
+    "Hod Name": "Dr.Gita",
+    "Department": "CSE",
+    "Mobile No": "817375",
+    "Bio Metric Code": "CSEBIO02"
+  },
+  {
+    "S NO": "3",
+    "Name": "Sruja",
+    "Faculty Id": "FACCSE03",
+    "Email": "faccse03@gniindia.org",
+    "Designation": "A. professor",
+    "Hod Name": "Dr.Gita",
+    "Department": "CSE",
+    "Mobile No": "817376",
+    "Bio Metric Code": "CSEBIO03"
+  },
+  {
+    "S NO": "4",
+    "Name": "suresh",
+    "Faculty Id": "FACCSE04",
+    "Email": "faccse04@gniindia.org",
+    "Designation": "Professor",
+    "Hod Name": "Dr.Gita",
+    "Department": "CSE",
+    "Mobile No": "817377",
+    "Bio Metric Code": "CSEBIO04"
+  },
+  {
+    "S NO": "5",
+    "Name": "varun",
+    "Faculty Id": "FACCSE05",
+    "Email": "faccse05@gniindia.org",
+    "Designation": "A. professor",
+    "Hod Name": "Dr.Gita",
+    "Department": "CSE",
+    "Mobile No": "817378",
+    "Bio Metric Code": "CSEBIO05"
+  }
+]

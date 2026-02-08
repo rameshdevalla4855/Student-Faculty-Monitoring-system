@@ -1,0 +1,46 @@
+[
+  {
+    "S NO": 1,
+    "Security ID": "SEC01",
+    "Name": "security1",
+    "Email": "security1@gmail.com",
+    "Mobile No": 58447125,
+    "Gate Name": "Main Gate",
+    "Shift Start": "06:00",
+    "Shift End": "04:00",
+    "isActive": "TRUE"
+  },
+  {
+    "S NO": 2,
+    "Security ID": "SEC02",
+    "Name": "security2",
+    "Email": "security2@gmail.com",
+    "Mobile No": 4851258,
+    "Gate Name": "Main Gate",
+    "Shift Start": "08:00",
+    "Shift End": "05:00",
+    "isActive": "TRUE"
+  },
+  {
+    "S NO": 3,
+    "Security ID": "SEC03",
+    "Name": "security3",
+    "Email": "security3@gmail.com",
+    "Mobile No": 54478962,
+    "Gate Name": "Hostel Gate",
+    "Shift Start": "08:00",
+    "Shift End": "06:00",
+    "isActive": "TRUE"
+  },
+  {
+    "S NO": 4,
+    "Security ID": "SEC04",
+    "Name": "security4",
+    "Email": "security4@gmail.com",
+    "Mobile No": 4152861,
+    "Gate Name": "Canteen Gate",
+    "Shift Start": "10:00",
+    "Shift End": "06:00",
+    "isActive": "TRUE"
+  }
+]

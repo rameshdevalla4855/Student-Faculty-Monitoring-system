@@ -1,0 +1,18 @@
+--- Checking Timetables ---
+ID: AID_3_1
+
+--- Checking Students Collection (Full Object) ---
+Student Raw Data: {
+  "rollNumber": "23WJ1A0502",
+  "name": "prathul",
+  "email": "23wj1a0502@gniindia.org",
+  "dept": "CSE",
+  "departmentGroup": "CSE",
+  "year": "4th",
+  "mobile": "9392734249",
+  "barcodeId": "218164-236470",
+  "mentorId": "3001",
+  "uid": null,
+  "isClaimed": false,
+  "parentMobile": "74515833"
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "S NO": "1",
+    "Name": "Madhu",
+    "HOD ID": "HODAID01",
+    "Department": "AIDS",
+    "Email": "drmadhu@gmail.com",
+    "Mobile No": "95874125",
+    "Designation": "Head of Department",
+    "Bio Metric Code": "AIDBIO01"
+  },
+  {
+    "S NO": "2",
+    "Name": "Raju",
+    "HOD ID": "HODAID02",
+    "Department": "AIDS",
+    "Email": "drraju@gmail.com",
+    "Mobile No": "8115877455",
+    "Designation": "Head of Department",
+    "Bio Metric Code": "AIDBIO02"
+  },
+  {
+    "S NO": "1",
+    "Name": "Gita",
+    "HOD ID": "HODCSE01",
+    "Department": "CSE",
+    "Email": "gita@gmail.com",
+    "Mobile No": "817938",
+    "Designation": "HOD",
+    "Bio Metric Code": "HODBIO01"
+  },
+  {
+    "S NO": "2",
+    "Name": "kohli",
+    "HOD ID": "HODCSE02",
+    "Department": "CSE",
+    "Email": "kohli@gmail.com",
+    "Mobile No": "817938",
+    "Designation": "HOD",
+    "Bio Metric Code": "HODBIO02"
+  }
+]
+  
